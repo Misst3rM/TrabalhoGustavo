@@ -1,0 +1,11 @@
+blockquote {
+    margin-bottom: 20px;
+  }
+  
+  client-name {
+    font-style: italic; 
+  }
+  
+  testimonial-text {
+    font-style: normal;
+  }

@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header , footer{
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+}
+
+time {
+  animation: countdown 5s infinite linear;
+}
+
+@keyframes countdown {
+  from {
+      color: blue;
+  }
+  to {
+      color: red;
+  }
+}
+
+.produto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.produto img {
+  width: 40%;
+  margin: 10px;
+}

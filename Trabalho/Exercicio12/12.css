@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #000;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(to right, blue 0%, blue 10%, rgb(255, 255, 255) 10%, white 95%, blue 95%, blue 100%);
+}

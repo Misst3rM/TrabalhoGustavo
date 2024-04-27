@@ -1,0 +1,9 @@
+details {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  details[open] {
+    max-height: 1000px; /* Valor suficientemente grande para mostrar todo o conteúdo */
+  }
